@@ -78,6 +78,28 @@ a {
 .sidebar {
     width: 25%;
     padding-right: var(--padding-xl);
+    background:aliceblue;
+}
+
+.range-wrapper{
+    width: 100%;
+    margin-top: var(--padding-l);
+    padding: var(--padding-m);
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--margin-m);
+    padding: var(--padding-s);
+}
+
+.range__button{
+    width: 6rem;
+    height: 2rem;
+    background: inherit;
+    box-shadow: var(--box-shadow-s);
+    border-radius: 10%;
 }
 
 .image {
@@ -85,6 +107,7 @@ a {
 }
 
 .filter {
+    padding: var(--padding-m);
     display: flex;
     justify-content: space-between;
 }
