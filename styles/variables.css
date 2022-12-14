@@ -7,6 +7,8 @@
     /* * Background-colors */
     --primary-bg : darkmagenta;
     --secondary-bg : darkblue ;
+    --third-bg: rgb(36, 36, 36);
+    --light-bg: rgb(233, 233, 233);
     --attention-bg : darkorchid ;
     --accent-bg : fuchsia ;
     

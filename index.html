@@ -1,4 +1,3 @@
-<!-- hello world -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,10 +9,13 @@
       href="./public/icons/logo.svg"
       type="image/x-icon"
     />
+    <script
+      src="https://kit.fontawesome.com/151b089a62.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/media.css" />
   </head>
-  <!-- Hello world -->
   <body>
     <div id="app">
       <header class="header">
@@ -30,7 +32,6 @@
         <nav class="nav">
           <a href="#" class="nav-link">Category</a>
           <a href="#" class="nav-link">Issues</a>
-          <a href="./public/pages/about_us.html" class="nav-link">About us</a>
           <a href="#" class="nav-link">Login</a>
         </nav>
       </header>
@@ -126,24 +127,55 @@
       </section>
 
       <footer class="footer">
-        <div class="map-wrapper">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163720.5843738355!2d8.6365638!3d50.121212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd096f477096c5%3A0x422435029b0c600!2sFrankfurt%2C%20Germany!5e0!3m2!1sen!2sua!4v1670952630049!5m2!1sen!2sua"
-            width="400"
-            height="300"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
+        <div class="footer__row">
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163720.5843738355!2d8.6365638!3d50.121212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd096f477096c5%3A0x422435029b0c600!2sFrankfurt%2C%20Germany!5e0!3m2!1sen!2sua!4v1670952630049!5m2!1sen!2sua"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
 
-        <nav class="nav">
-          <a href="#" class="nav-link">Facebook</a>
-          <a href="#" class="nav-link">Instagram</a>
-          <a href="#" class="nav-link">Telegram</a>
-        </nav>
+          <div class="logo-wrapper">
+            <img
+              src="./public/icons/logo.svg"
+              alt="Something went wrong"
+              class="logo footer__logo"
+            />
+          </div>
+
+          <div class="nav footer__nav">
+            <a href="#" class="nav-link network">
+              <span class="fa-stack">
+                <i class="fa fa-instagram fa-stack-2x network"></i>
+              </span>
+            </a>
+
+            <a href="#" class="nav-link network">
+              <span class="fa-stack">
+                <i class="fa-brands fa-telegram fa-stack-2x network"></i>
+              </span>
+            </a>
+
+            <a href="#" class="nav-link network">
+              <span class="fa-stack">
+                <i class="fab fa-facebook-square fa-stack-2x network"></i>
+              </span>
+            </a>
+          </div>
+        </div> 
+
+        <div class="footer__row">
+          <h6 class="text">
+            Copyright &#169; FRONTEND-21. All rights reserved.
+          </h6>
+        </div>
       </footer>
     </div>
   </body>
 </html>
+
