@@ -1,0 +1,22 @@
+@media (max-width: 876px) {
+  .footer__row {
+    flex-direction: column;
+    padding: var(--padding-s);
+  }
+
+  .map-wrapper {
+    width: 100%;
+  }
+
+  .footer__logo {
+    margin: var(--margin-s) 0;
+  }
+
+  .links {
+    margin-top: var(--margin-m);
+  }
+
+  .network {
+    margin: 0 var(--margin-s);
+  }
+}
